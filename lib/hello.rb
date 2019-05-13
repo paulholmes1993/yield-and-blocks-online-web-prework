@@ -1,6 +1,7 @@
-def hello_t
+def hello_t(array)
 
-end
-
-# call your method here!
-
+   array.each do |name|
+    if name.start_with?("T")
+        puts "Hi, #{name}"
+    end
+  end
